@@ -1,10 +1,16 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #B00100;
-  color: #FFD;
+  background-color: #730000;
+  color: #112323;
 }
 
 a {
   color: #00B7FF;
+}
+
+.container {
+	padding: 20px;
+	border-radius: 10px;;
+	background-color: #F7FFE6;
 }
