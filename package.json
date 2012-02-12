@@ -1,0 +1,19 @@
+{
+    "name": "do-it"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.8"
+    , "jade": ">= 0.0.1"
+    , "handlebars": ">= 1.0"
+    , "redis": ">= 0.7"
+    , "request": ">= 2.9"
+    , "requirejs": ">= 1.0"
+  }
+  , "scripts": {
+	  "test": "jasmine-node --color --verbose spec"
+	}
+	, "devDependencies": {
+	    "jasmine-node": ">=1.0"
+	}
+}
