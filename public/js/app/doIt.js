@@ -1,0 +1,5 @@
+DoIt = {};
+
+(function($) {
+
+})(jQuery);
