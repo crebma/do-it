@@ -1,5 +1,0 @@
-DoIt = {};
-
-(function($) {
-
-})(jQuery);

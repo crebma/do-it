@@ -4,20 +4,27 @@
     <title>do it!</title>
 
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8"/>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript" data-main="js/main" src="js/require.js"></script>
+    <script src="js/ext/ace/ace.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>do it!</h1>
+        <span class="header">do it!</span>
         <p>take some sad code and make it better.</p>
 
-        <label for="code">code:</label>
-        <textarea name="code"></textarea>
+        <div class="source-wrap">
+          <div id="sad-editor-wrapper" class="editor-wrapper left">
+            <label for="latest-sad-code">latest sad code</label>
+            <div id="latest-sad-code" class="editor vertical source">none yet! wip!!</div>
+          </div>
 
-        <a class="submit" href='#'>
-            <span>this is nasty!</span>
-        </a>
+          <div id="better-editor-wrapper" class="editor-wrapper right">
+            <label for="latest-better-code">latest better code</label>
+            <div id="latest-better-code" class="editor vertical source">none yet! wip!!</div>
+          </div>
+        </div>
     </div>
 </body>
