@@ -2,7 +2,7 @@ body {
   padding: 50px;
   background-color: #730000;
   color: #112323;
-  font: 24px 'PT Sans', sans-serif;
+  font: 1.5em 'PT Sans', sans-serif;
 }
 
 p {
@@ -14,7 +14,33 @@ a {
 }
 
 .header {
-  font: 60px 'PT Sans', sans-serif;
+  overflow: hidden;
+  position: relative;
+  clear: right;
+}
+
+.login-links {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.login-links ul {
+    list-style: none;
+}
+
+.login-links li {
+    display: inline;
+}
+
+.login-links a {
+    text-decoration: none;
+    color: #112323;
+    font-size: 0.7em;
+}
+
+.do-it-header {
+  font: 3em 'PT Sans', sans-serif;
   font-weight: 700;
 }
 

@@ -7,8 +7,9 @@ require.config({
     priority: ['jquery']
 });
 
-require(['jquery', 'app/router'], function($, Router) {
-    $(function() {        
+require(['jquery', 'backbone', 'app/router'], function($, Backbone, Router) {
+    $(function() {       
         new Router.DoIt();
+        Backbone.history.start();
     });
 });

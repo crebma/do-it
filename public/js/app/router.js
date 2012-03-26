@@ -1,12 +1,21 @@
-define(['backbone'], function(Backbone) {
+define(['backbone', 'app/views'], function(Backbone, Views) {
 
     var router = {};
 
     router.DoIt = Backbone.Router.extend({
                
-        initialize: function(options) {
-            ace.edit('latest-sad-code');
-            ace.edit('latest-better-code');
+        routes: {
+            'home': 'home',
+            'login': 'login',
+            '*catchAll': 'home'
+        },
+
+        home: function() {
+            new Views.Home().render();
+        },
+
+        login: function() {
+            new Views.Login().render();
         }
 
     });
