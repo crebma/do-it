@@ -3,8 +3,8 @@ var http = require('http');
 var url = require('url');
 var qs = require('querystring');
 var auth_url = github.auth.config({
-  client_id: '2bcd7c49892058980009',
-  client_secret: '135a150d0db1c9bb9613b7ab86e3bcd257524633'
+  client_id: 'client_id_from_github',
+  client_secret: 'client_secret_from_github'
 }).login(['user', 'repo', 'gist']);
 
 exports.github = function(req, res) {
